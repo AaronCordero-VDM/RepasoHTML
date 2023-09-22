@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(215, 223, 193);
+    width: 100%;
+}
+
+nav{
+    color: rgb(255, 255, 255);
+}
+
+p, h3, li{
+    color: black;
+}
+
+
+nav > ul {
+    height: 10%;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding: 10px 35px;
+    background-color: #b06337;
+    
+}
+
+.menu {
+    padding: 20px;
+    text-align: center;
+    font-weight: 1500;
+}
+
+.header {
+    display: flex;
+    padding: 15px 15px;
+    height: 15%;
+    background-color: #5a3030;
+    color: rgb(247, 254, 230);
+}
+
+.cabecera{
+    position: relative;
+    border: 2px solid rgb(245, 244, 244);
+    border-radius: 10px;
+    margin: 0 100px;
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.foto_patio{
+    width: 100%;
+    max-height: 300px;
+    
+}
+
+div > h2 {
+    position: absolute;
+    z-index: 300;
+    margin: 10px;
+    padding: 0%;
+}
+
+
+.logo{
+    width: 12%;
+}
+
+.imagen_logo{
+    margin-left: 10px;
+    padding-top: 60px;
+    width: 200%;
+}
+
+a:visited{
+    color: rgb(254, 254, 254);
+}
+
+a:hover{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.texto_index{
+    margin:0px 50px;
+}
+
+.titulo{
+    margin: 25px 25px;
+    color: rgb(6, 176, 176);
+}
+
+.texto_index > h3 {
+    font-size: 16px;
+    margin-left: 25px;
+    font-weight: 1200;
+}
+
+.texto_index > p {
+    margin: 15px 25px;
+    font-size: 20px;
+}
+
+.capacidades{
+    font-size: 20px;
+    margin:30px 100px;
+}
+
+
+
+table{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 3%;
+    border: #b06337 3px solid;
+    border-radius: 8px;
+}
+
+th{
+    padding: 30px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+tr{
+    text-align: center;
+}
+
+td{
+    height: 30px;
+    padding:10px;
+    border: #68c16a solid 1px;
+    border-radius: 4px;
+}
+
+.encabezado{
+    color: #ffffff;
+    background-color: #5c5c5c;
+}
+
+.recreo{
+    text-align: center;
+    background-color: #f58989;
+}
+
+.despliegue{
+    background-color: #68c16a;
+}
+
+.cliente{
+    background-color: #df8652;
+}
+
+.interfaces{
+    background-color: #6db1c0;
+}
+
+.servidor{
+    background-color: #b486c9;
+}
+
+.ingles{
+    background-color: #b3e3cc;
+}
+
+.empresa{
+    background-color: #eee182;
+}
+
+.hora{
+    background-color: #b3b3b3;
+}
+
+.titulos_somos{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.texto_somos > h2 ,h3 {
+    margin-left: 25px;
+    font-weight: 1200;
+    font-size: 25px;
+}
+
+.texto_somos > p {
+    margin: 20px 25px;
+    font-size: 20px;
+}
+
+.texto_somos {
+    margin:0px 50px;
+}
+
+li > ol {
+    margin: 10px 50px;
+    font-weight: 400;
+}
+
+.curso{
+    font-weight: bold;
+    margin:30px 50px;
+    font-size: 22px;
+}
+
+ol > li {
+    margin: 5px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+}
