@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300;1,400&family=Pixelify+Sans:wght@500&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Josefin", sans-serif;
 }
 
 body {
-    background-color: rgb(215, 223, 193);
+    background-color: rgb(225, 235, 238);
     width: 100%;
 }
 
@@ -22,7 +26,8 @@ li {
 }
 
 a {
-    color: white;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     vertical-align: middle;
 }
@@ -33,7 +38,7 @@ nav>ul {
     list-style: none;
     text-align: center;
     padding: 10px 35px;
-    background-color: #b06337;
+    background-image: url(resumen-rombo-textura-blanca-perfecta-fondo_322978-708.avif);
     vertical-align: middle;
 }
 
@@ -45,17 +50,21 @@ nav>ul {
 
 .header {
     display: flex;
-    padding: 15px 15px;
     height: 15%;
     background-color: #5a3030;
     color: rgb(247, 254, 230);
+}
+
+.tituloSec{
+    margin-left: 20px;
+    color: white;
 }
 
 .header_main {
     display: flex;
     padding: 15px 15px;
     height: 15%;
-    background-color: #5a3030;
+    background-color: #e5e4e4;
     color: rgb(247, 254, 230);
 }
 
@@ -76,11 +85,9 @@ nav>ul {
 
 .cabecera {
     position: relative;
-    margin: 0 100px;
     font-size: 50px;
     width: 100%;
     height: 5%;
-    z-index: 100;
 }
 
 .cabecera_sec {
@@ -108,14 +115,10 @@ nav>ul {
     right: 5%;
 }
 
-li>a:visited {
-    color: rgb(238, 178, 178);
-}
 
 li>a:hover {
     font-weight: bold;
     text-align: center;
-    font-size: 25px;
     text-decoration: underline overline;
 }
 
@@ -141,7 +144,7 @@ li>a:hover {
 
 .capacidades {
     font-size: 20px;
-    margin: 30px 100px;
+    margin: 30px 60px;
 }
 
 
@@ -250,7 +253,7 @@ ol>li {
 .foot {
     position: fixed;
     bottom: 0;
-    background-color: #b06337;
+    background-image: url(resumen-rombo-textura-blanca-perfecta-fondo_322978-708.avif);
     width: 100%;
     min-height: 50px;
 }
