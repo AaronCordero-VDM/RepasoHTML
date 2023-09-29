@@ -22,6 +22,7 @@ li {
 }
 
 a {
+    color: white;
     text-decoration: none;
     vertical-align: middle;
 }
@@ -108,7 +109,7 @@ nav>ul {
 }
 
 li>a:visited {
-    color: rgb(253, 253, 253);
+    color: rgb(238, 178, 178);
 }
 
 li>a:hover {
@@ -146,17 +147,15 @@ li>a:hover {
 
 
 table {
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-bottom: 3%;
+    width: 100%;
+    max-width: 800px;
+    margin: 2em auto;
     border: #b06337 3px solid;
     border-radius: 8px;
 }
 
 th {
     padding: 1%;
-    font-size: 30px;
     border: 2px solid black;
     border-radius: 4px;
 }
@@ -249,7 +248,7 @@ ol>li {
 
 
 .foot {
-    position: relative;
+    position: fixed;
     bottom: 0;
     background-color: #b06337;
     width: 100%;
@@ -278,5 +277,17 @@ ol>li {
 @media screen and (max-width: 768px) {
   .VDM{
     font-size: 0.7em;
+  }
+
+  table{
+    font-size: 0.75em;
+  }
+
+  td{
+    padding: 1.5%;
+  }
+
+  th{
+    padding: 0%;
   }
 }
